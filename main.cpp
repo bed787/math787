@@ -2,6 +2,8 @@
 #include <iostream>
 #include "Permutations.hpp"
 
+using namespace math787;
+
 int main() {
     int n;
     std::cin >> n;

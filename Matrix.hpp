@@ -3,6 +3,7 @@
 #include <vector>
 #include <stdexcept>
 #include <iostream>
+#include "utils.hpp"
 
 namespace math787 {
 
@@ -88,14 +89,13 @@ public:
     }
 
     Matrix reverse() const {
-
+        throw std::runtime_error("Not implemented");
     }
 
     // ===== Determinant =====
 
     double determinantLeibnitz() {
-
-
+        throw std::runtime_error("Not implemented");
     }
 
     double determinantGauss() const {
@@ -174,18 +174,7 @@ public:
         return Matrix(rows, cols, values);
     }
 
-    // ===== Utility =====
 
-    static int factorial(int n) {
-        if (n < 0) {
-            throw std::invalid_argument("Argument of factorial < 0");
-        }
-        int result = 1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
-        }
-        return result;
-    }
 
 };
 

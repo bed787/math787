@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(math787 main.cpp
         Matrix.hpp
-        Permutations.hpp)
+        Permutations.hpp
+        utils.hpp)
