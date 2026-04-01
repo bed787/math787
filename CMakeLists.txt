@@ -4,4 +4,5 @@ project(math787)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(math787 main.cpp
-        Matrix.hpp)
+        Matrix.hpp
+        Permutations.hpp)
